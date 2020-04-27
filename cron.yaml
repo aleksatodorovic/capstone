@@ -1,0 +1,7 @@
+cron:
+  - description: "morning update"
+  url: /forecast_open
+  schedule: every mon,tue,wed,thu,fri 13:05
+  - description: "evening update"
+  url: /forecast_evening
+  schedule: every mon,tue,wed,thu,fri 22:05
